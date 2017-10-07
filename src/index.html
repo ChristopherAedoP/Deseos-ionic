@@ -24,12 +24,38 @@
   </script>-->
 
   <link href="build/main.css" rel="stylesheet">
+ <style>
 
+
+ </style>
 </head>
 <body>
 
   <!-- Ionic's root component and where the app will load -->
-  <ion-app></ion-app>
+
+
+<div class="pageWrapper switcherOuterWrapper">
+  <!-- mobile frame starts -->
+<div class="mobileFrameWrapper">
+  <div class="mobileFrame"></div>
+  <div class="previewFrameWrapper">
+
+    <ion-app></ion-app>
+  </div>
+
+</div>
+  <!-- mobile frame ends -->
+
+  <!-- right details section starts -->
+  <div class="infoSection">
+    <h4 class="itemTitle">Lista de Pendientes</h4>
+    <p>Ejemplo de aplicacion móvil con Ionic 2, aplicacion de lista de tareas pendientes y terminadas</p>
+    <hr>
+        <p><i>Christopher Aedo.</i></p>
+
+  </div>
+  <!-- right details section ends -->
+</div>
 
   <!-- The polyfills js is generated during the build process -->
   <script src="build/polyfills.js"></script>

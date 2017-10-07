@@ -36,3 +36,71 @@
 .caja-vacia p {
     font-size: 30px;
 }
+
+
+  .mobileFrameWrapper {
+// height: 780px;
+
+/* text-align: center; */
+
+
+/* margin: auto; */
+
+margin-top: 30px;
+width: 50%;
+position: relative;
+
+  }
+
+  .mobileFrame {
+    width: 468px;
+    height: 780px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    background: url(../assets/img/mobileDeviceFrameBg2.png) 0 0 no-repeat;
+    pointer-events: none;
+  }
+
+  .previewFrameWrapper {
+    height: 600px;
+    width: 420px;
+    position: absolute;
+    top: 90px;
+    left: 24px;
+  }
+  .switcherOuterWrapper {
+    width: 984px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    height: 780px;
+    background: url(../assets/img/shadow.png) 0px bottom no-repeat;
+
+    margin-bottom: 90px;
+    padding-left: 66px;
+  }
+  .infoSection {
+    /* float: left; */
+    /* width: 420px; */
+    /* height: 540px; */
+    font-family: 'Droid Sans',
+    'Helvetica Neue',
+    Helvetica,
+    Arial,
+    sans-serif;
+
+    padding-top: 240px;
+    padding-left: 48px;
+    margin-left: 450px;
+
+
+
+  }
+
+
+
+
+
+
