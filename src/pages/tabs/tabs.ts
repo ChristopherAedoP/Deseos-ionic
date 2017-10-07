@@ -1,3 +1,4 @@
+import { SobreComponent } from './../sobre/sobre.component';
 import { TerminadosComponent } from './../terminados/terminados.component';
 import { PendientesComponent } from './../pendientes/pendientes.component';
 
@@ -14,7 +15,7 @@ export class TabsPage {
 
   tab1Root = PendientesComponent;
   tab2Root = TerminadosComponent;
-
+  tab3Root = SobreComponent;
 
   constructor() {
 

@@ -1,3 +1,4 @@
+import { SobreComponent } from './../pages/sobre/sobre.component';
 import { PendientesPipe } from './pipes/pendientes.pipe';
 import { DetalleComponent } from './../pages/detalle/detalle.component';
 import { PlaceHolderPipe } from './pipes/placeholder.pipe';
@@ -30,7 +31,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     PendientesComponent,
     TerminadosComponent,
     AgregarComponent,
-    DetalleComponent
+    DetalleComponent,
+    SobreComponent
   ],
   imports: [
     BrowserModule,
@@ -44,7 +46,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     PendientesComponent,
     TerminadosComponent,
     AgregarComponent,
-    DetalleComponent
+    DetalleComponent,
+    SobreComponent
 
   ],
   providers: [
